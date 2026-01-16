@@ -270,12 +270,12 @@ private func checkForRoot() {
     }
 }
 
-private func fileExistsNoFollowSymlink(_ path: String) -> Bool {
+func fileExistsNoFollowSymlink(_ path: String) -> Bool {
     var statBuf = stat()
     return lstat(path, &statBuf) == 0
 }
 
-private func getAbsolutePath(_ filePath: String) -> String {
+func getAbsolutePath(_ filePath: String) -> String {
     let nsPath = filePath as NSString
     let parent = nsPath.deletingLastPathComponent
     let name = nsPath.lastPathComponent
