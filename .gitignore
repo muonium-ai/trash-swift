@@ -4,3 +4,8 @@ hobo*
 trash
 test
 trash.1
+.DS_Store
+.build/
+.swiftpm/
+Packages/
+DerivedData/

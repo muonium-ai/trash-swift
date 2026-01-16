@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:trash-swift}",
+            "name": "Debug trash",
+            "target": "trash",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug trash"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:trash-swift}",
+            "name": "Release trash",
+            "target": "trash",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release trash"
+        }
+    ]
+}

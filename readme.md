@@ -8,15 +8,15 @@ This repository is a modern Swift port of the original Objective‑C CLI app. Th
 
 ## TODO (Porting Progress)
 
-- [ ] Decide target macOS + Swift versions.
-- [ ] Create SwiftPM package structure.
-- [ ] Port CLI parsing and help output.
-- [ ] Port stdout/stderr utilities + verbose logging.
-- [ ] Implement file existence checks (no leaf symlink follow).
-- [ ] Implement standard trashing (FileManager).
-- [ ] Implement Finder-based trashing ("put back" support).
-- [ ] Implement list/empty/secure empty flows.
-- [ ] Implement folder size aggregation and formatting.
+- [x] Decide target macOS + Swift versions.
+- [x] Create SwiftPM package structure.
+- [x] Port CLI parsing and help output.
+- [x] Port stdout/stderr utilities + verbose logging.
+- [x] Implement file existence checks (no leaf symlink follow).
+- [x] Implement standard trashing (FileManager).
+- [x] Implement Finder-based trashing ("put back" support).
+- [x] Implement list/empty/secure empty flows.
+- [x] Implement folder size aggregation and formatting.
 - [ ] Add tests (unit + smoke).
 - [ ] Update man page + release docs.
 
